@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_socialuser"
+            android:icon="@drawable/ic_socialuser"
+            android:title="社交关系" />
+        <item
+            android:id="@+id/nav_socialaction"
+            android:icon="@drawable/ic_socialaction"
+            android:title="社交动态" />
+        <item
+            android:id="@+id/nav_autocharge"
+            android:icon="@drawable/ic_autocharge"
+            android:title="智能分析" />
+        <item
+            android:id="@+id/nav_replyaction"
+            android:icon="@drawable/ic_replyaction"
+            android:title="执行反馈" />
+        <item
+            android:id="@+id/nav_userfavor"
+            android:icon="@drawable/ic_userfavor"
+            android:title="个人偏好" />
+        <item
+            android:id="@+id/nav_searchall"
+            android:icon="@drawable/ic_searchall"
+            android:title="全局搜索" />
+    </group>
+
+    <item android:title="软件">
+        <menu>
+            <item
+                android:id="@+id/nav_settingm"
+                android:icon="@drawable/ic_settiingm"
+                android:title="详细设置" />
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/ic_developer"
+                android:title="软件信息" />
+        </menu>
+    </item>
+
+</menu>
